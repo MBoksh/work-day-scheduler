@@ -29,3 +29,5 @@ When the planner is opened. The current day is displayed at the top of the calan
 
 ## Screenshot
 ![](Screenshot_20221031_190350.png)
+
+Live URL link: https://mboksh.github.io/work-day-scheduler/
