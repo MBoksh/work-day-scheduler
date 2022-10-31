@@ -28,4 +28,4 @@ THEN the saved events persist
 When the planner is opened. The current day is displayed at the top of the calander. There are timeblocks from 9am - 5pm. Timeblocks are colour coded inicating past, present, and future. Events can be entered into timeblocks and saved into local storage. When the page is refreshed, the saved events remain on the page. 
 
 ## Screenshot
-![](./assets/Screenshot_20221031_190350.png)
+![](Screenshot_20221031_190350.png)
