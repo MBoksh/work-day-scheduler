@@ -96,3 +96,18 @@ $(document).ready(function()
         saveTask(index); 
     });
 });
+
+function loadtasks() {
+    var data = localStorage.getItem("schedule"); 
+    if (data) 
+    {
+      var scheduleArray = JSON.parse(data);  
+      $.each(scheduleArray, function(i, item) 
+      {
+        schedule[i].tasks = item.tasks; 
+      });
+    }
+    else {
+      localStorage.setItem("schedule", JSON.stringify(schedule));  
+    }
+  }
